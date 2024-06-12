@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/taitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Bienvenido a GTracker!"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuenta: "
+        android:textSize="20dp"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"></androidx.fragment.app.FragmentContainerView>
+
+
+    <Button
+        android:id="@+id/precios"
+        android:text="Gestionar gasolineras"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="#36b3b5"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:text="@string/logout"
+        android:id="@+id/logout"
+        android:textColor="@color/white"
+        android:backgroundTint="#36b3b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

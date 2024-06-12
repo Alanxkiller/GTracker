@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GTracker</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="da_click_para_loguearte">Da click para loguearte</string>
+    <string name="presiona_aqui_para_loguearte">Presiona aqui para loguearte</string>
+    <string name="presiona_aqui_para_registrarte">Presiona aqui para registrarte</string>
+    <string name="logout">Cerrar sesion</string>
+    <string name="ver_precios">Ver precios</string>
+</resources>

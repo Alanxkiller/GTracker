@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824317920303",
+    "project_id": "gasolinera-tracker-redes",
+    "storage_bucket": "gasolinera-tracker-redes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824317920303:android:2a01c73229dd401dc832da",
+        "android_client_info": {
+          "package_name": "com.example.gasolinerafirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRwkC1K9wQNDxfCeZa9w2z5Ukr34_zDHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
